@@ -1,0 +1,34 @@
+body{
+    background: #ebebeb;
+}
+.team-add-title{
+    height: .88rem ;
+    width: 100%;
+    line-height: .88rem;
+    text-align: center ;
+    color: #fefefe;
+    z-index: 9;
+    font-family: PingFang-SC-Medium;
+    font-size: .36rem ;
+    position: fixed;
+    background-image: linear-gradient(50deg, 
+		#c01206 0%, 
+		#ba251f 37%, 
+		#b33737 100%);
+}
+.team-add-title .icon-fanhui {
+    position: absolute;
+    left: .23rem;
+    font-size: .36rem ;
+    /* bottom: -.15rem; */
+}
+.team-add-title a {
+    display: inline-block ;
+    position: absolute;
+    right: .23rem;
+    font-size: .48rem ;
+    color: #fefefe;
+}
+.team-add-title .icon-tianjiahuiyuan{
+    font-size: .48rem ;
+}

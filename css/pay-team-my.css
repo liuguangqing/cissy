@@ -1,0 +1,122 @@
+.my-header{
+    padding: .88rem  .1rem .16rem;
+    font-family: PingFang-SC-Medium;
+    background-image: linear-gradient(50deg, 
+		#c01206 0%, 
+		#ba251f 37%, 
+        #b33737 100%);
+}
+.my-header > div {
+    background: #fff;
+    border-radius: .06rem;
+    padding: 0 .2rem;
+    font-family: PingFang-SC-Medium;
+    position: relative;
+}
+
+.my-header > div > div:nth-of-type(1) {
+    height: .87rem ;
+    line-height: .87rem ;
+    border-bottom: .02rem solid  #ebebeb;
+}
+.my-header > div > div:nth-of-type(2){
+    height: .8rem ;
+    line-height: .8rem ;
+    font-size: .24rem ;
+}
+.my-header > div > div:nth-of-type(1) .color-f {
+    width: .69rem;
+	height: .28rem;
+	line-height: .28rem;
+	background-color: #ec5553;
+    border-radius: .1rem;
+    font-size: .24rem;
+    display: inline-block;
+    text-align: center;
+    margin: 0 .06rem;
+}
+.my-header > div > div:nth-of-type(1) .color-san{
+    margin: 0 .08rem;
+    font-size: .28rem;
+}
+.my-header > div > div:nth-of-type(1) .color-jiu {
+    font-size: .24rem ;
+}
+.my-header > div > div:nth-of-type(2) .color-san {
+    margin-left:.2rem;
+    font-size: .28rem;
+}
+.my-header > div > div:nth-of-type(2) .color-liu {
+    margin-left:.2rem;
+}
+.my-header > div > div:nth-of-type(2) .color-ec53 {
+    font-size:  0.30rem;
+    padding-left:.2rem;
+}
+.my-tain > div:nth-of-type(1) {
+    font-size: .24rem;
+    padding: .14rem .3rem;
+}
+.my-header img,.my-tain img{
+    width: .59rem;
+    height: .55rem;
+    position: absolute;
+    top: 0;
+    right: .13rem
+}
+.my-tain ul{
+    padding: 0  .1rem;
+    font-family: PingFang-SC-Medium;
+}
+.my-tain ul>  li {
+    background-color: #fff;
+    position: relative;
+    border-radius: .06rem;
+    padding: 0 .18rem ;
+    margin-bottom:  .1rem; 
+}
+.my-tain ul>  li:nth-of-type(1){
+    box-shadow: 0px -3px 5px 0px 
+    rgba(65, 65, 65, 0.08);
+}
+.my-tain ul>  li > a{
+    display: block;
+}
+.my-tain ul>  li > a > div:nth-of-type(1) {
+    height: .73rem;
+    line-height: .73rem;
+}
+.my-tain ul>  li > a > div:nth-of-type(1) > div {
+    display: inline-block;
+}
+.my-tain ul>  li > a > div:nth-of-type(2) {
+    height: .73rem;
+    line-height: .73rem;
+}
+.my-tain ul>  li > a > div:nth-of-type(2) .color-jiu{
+    font-size: .24rem;
+}
+.my-tain ul>  li > a > div:nth-of-type(2) .color-ec53 {
+    font-size: .3rem;
+}
+.my-tain ul>  li > a > div:nth-of-type(2) .color-liu {
+    font-size: .24rem;
+}
+.my-tain ul>  li > a > div > span {
+    font-size: .28rem;
+    padding: 0 .1rem
+}
+
+.my-tain ul>  li > a > div > div{
+    font-size: .24rem;
+}
+.my-tain ul>  li > a > div > div > span {
+    height: .28rem;
+    line-height: .28rem;
+    display: inline-block;
+    background-color: rgba(251, 112, 109, 0.2);
+	border-radius: .10rem;
+    /* opacity: 0.2; */
+    margin:  0 .07rem;
+    padding:   0 .07rem;
+}

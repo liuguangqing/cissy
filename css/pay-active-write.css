@@ -1,0 +1,43 @@
+
+.showimgctheader{
+    margin-top: .55rem;
+}
+.login-join>div {
+    background: #fff url('../images/login-active-bg2.png') no-repeat center bottom / 100% 100%;
+    text-align: center;
+}
+.login-title{
+    font-size: .26rem;
+    color: #999999;
+    font-family: PingFang-SC-Regular;
+    margin: 1.12rem 0 .21rem 0.05rem ;
+}
+.login-tain {
+    text-align: left;
+    padding:  0 .4rem ;
+}
+.inpList > div{
+    height: .91rem;
+    line-height: .91rem;
+    border-bottom:  .02rem solid #cccccc;
+}
+.inpList > div span {
+    font-family: PingFang-SC-Regular;
+    font-size: .3rem;
+    padding-left: .03rem;
+}
+.inpList > div input {
+    border: none;
+    font-family: PingFang-SC-Regular;
+    font-size: .24rem;
+    width: 4.3rem;
+    padding-left: .4rem;
+}
+::placeholder{
+    font-family: PingFang-SC-Regular;
+	font-size: .24rem;
+    color: #999999;
+}
+.aggre-invite-btn {
+    margin: .79rem auto 0
+}

@@ -1,0 +1,30 @@
+.qr-active{
+    min-height: 100%;
+    width: 100%;
+    background: url('../images/QR-active.png') no-repeat  top center / cover ;
+}
+.loginImg{
+    padding-top: 6.76rem ; 
+    margin:   0 .88rem ;
+}
+.qrImg,.qrPrint{
+    width: 2.57rem ;
+    height: 2.57rem ;
+    box-sizing: border-box;
+}
+.qrImg{
+    padding: .14rem;
+    background-color: #fff;
+    border-radius: .1rem;
+}
+.qrImg > img ,.qrPrint > img {
+    width: 100%;
+    height: 100%;
+}
+.resdes{
+    text-align: center;
+    color: #ffffff;
+    font-size: .26rem;
+    font-family: PingFang-SC-Medium;
+    padding-top: .68rem;
+}

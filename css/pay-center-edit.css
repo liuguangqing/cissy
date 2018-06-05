@@ -1,0 +1,69 @@
+.edit-tainer{
+    padding-top:.88rem ;
+}
+.updata-logo {
+    width: 2.49rem;
+	height: 1.62rem;
+	background-color: #ffffff;
+	box-shadow: inset .0rem .0rem .07rem .0rem 
+		rgba(0, 0, 0, 0.16);
+	border-radius: .10rem;
+    border: solid .02rem #ffffff;
+    text-align: center;
+    margin: .98rem auto .72rem ;
+    position: relative; 
+    padding-top: .14rem;
+}
+.updata-logo .iconfont {
+    font-size: .9rem;
+}
+.updata-logo .color-jiu {
+    font-size: .22rem ;
+}
+.updata-logo .addIcon {
+    position: absolute;
+    right: -.16rem;
+    bottom: -.16rem;
+    background-color: #b72d2b;
+    width: .42rem ;
+    line-height: .42rem ;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: 900;
+}
+.edit-tainer ul li {
+    background: #ffffff;
+    height: 1.02rem ;
+    line-height: 1.02rem ;
+    border-bottom: 0.02rem solid #ebebeb ;
+}
+.edit-tainer ul li span {
+    padding-left:.31rem;
+    font-size: .3rem ;
+    width: 1.8rem;
+    display: inline-block;
+}
+.edit-tainer ul li input {
+    border:  none ;
+    font-size: .24rem ;
+}
+::placeholder {
+    color: #ccc;
+    font-size: .24rem;
+}
+.updata-btn{
+    width: 6.00rem;
+	height: .80rem;
+    line-height: .80rem;
+    text-align: center;
+    margin:  1.7rem auto ;
+	background-image: linear-gradient(27deg, 
+		#b43331 0%, 
+		#c03634 42%, 
+		#cb3836 100%, 
+		#c42923 100%, 
+		#bd1a10 100%);
+    border-radius: .10rem;
+    color: #ffffff;
+}
+

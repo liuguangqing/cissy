@@ -1,0 +1,27 @@
+.team-add{
+    height: 100%;
+}
+.sever-tain {
+    padding-top: .88rem;
+    height: 100%;
+    background: url('../images/pay-active-sever_bg.png') no-repeat center top / 100% 100% ;
+}
+.sever-tain > div {
+    width: 6.90rem;
+	height: 6.26rem;
+	background-color: #fffff7;
+	box-shadow:.01rem -.3rem .7rem .0rem 
+		rgba(195, 72, 41, 0.42);
+    border-radius: .10rem;
+    position: absolute;
+    bottom: 1.4rem;
+    left: .3rem;
+}
+.sever-tain li {
+    text-align: center;
+    margin: .4rem 0;
+}
+.sever-tain li > a > img  {
+    width: 6.14rem ;
+    vertical-align: middle;
+}

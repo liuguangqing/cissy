@@ -1,0 +1,74 @@
+.center-tainer {
+    height: 2.27rem;
+    color: #fefefe;
+    padding:  .49rem .26rem 0;
+    font-family: PingFang-SC-Regular;
+    background: url('../images/pay-center-bg.png') no-repeat center center / 100% 100% ;
+}
+.center-tainer > div > div:nth-of-type(1){
+    width: 1.29rem;
+	height: 1.29rem;
+	background-color: #d05252;
+    border: solid .02rem #ffffff;
+    border-radius: 100%;
+    margin-right: .32rem; 
+}
+.center-tainer > div > div:nth-of-type(1) img{
+    width: 100%;
+	height: 100%;
+}
+.icon-fanhui{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+.userInfo{
+    font-size: .3rem ;
+    padding-top: .04rem ;
+    color: #fefefe;
+}
+.userInfo .colorIOS{
+    color: #fefefe;
+}
+.userInfo > div:nth-of-type(1){
+    padding-bottom: .3rem;
+}
+.userInfo > div:nth-last-of-type(1){
+    font-size: .24rem;
+}
+.center-tainer .icon {
+    font-size: .46rem;
+    opacity: 0.67;
+    margin-top:.59rem ; 
+}
+.center-list  ul > li {
+    margin:  .2rem  0 ;
+    padding:  0 .3rem;
+    background: #fff ;
+}
+.center-list  ul > li:nth-of-type(1) .iconfont:nth-of-type(1) {
+    color:#ea0006;
+}
+.center-list  ul > li:nth-of-type(2) .iconfont:nth-of-type(1) {
+    color:#f39a00;
+}
+.center-list  ul > li  a {
+    height: 1rem;
+    display: block;
+    line-height: 1rem;
+    border-bottom: .02rem solid #f2f2f2;
+}
+.center-list  ul > li  .icon-fanhui {
+    color: #b3b3b3;
+    font-size: .36rem;
+    text-align: right ;
+}
+.center-list  ul > li > a:nth-last-of-type(1){
+    border:  none ;
+}
+.center-list  ul > li > a > span {
+    color:#333 ;
+}
+.center-list  ul > li > a > i:nth-of-type(1) {
+    font-size: .4rem ;
+    padding-right: .1rem;
+}

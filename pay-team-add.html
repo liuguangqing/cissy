@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>添加团队</title>
+    <script src="./public/rem.js"></script>
+    <link rel="stylesheet" href="./public/cssrest.css">
+    <link rel="stylesheet" type="text/css" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./css/com-header.css">
+    <link rel="stylesheet" href="./css/pay-team-add.css">
+</head>
+
+<body>
+    <div class="team-add">
+        <div class="team-add-title">
+            <i class="icon iconfont icon-fanhui"></i>
+            <span>添加团队成员</span>
+        </div>
+        <div class="team-des">欢迎登录此系统 快添加新成员吧</div>
+        <div class="infoList">
+            <div class="clear">
+                <span class="fl">手机号码</span>
+                <span class="fr authcode">获取验证码</span>
+                <input class="mobilephone" type="text" placeholder="请输入手机号码">
+
+            </div>
+            <div class="clear">
+                <span class="">验证码</span>
+                <input class="" type="text" placeholder="请输入手机验证码">
+            </div>
+            <div class="clear">
+                <span class="fl">省份</span>
+                <span class="fl">浙江省</span>
+                <i class="fr icon iconfont icon-fanhui"></i>
+            </div>
+            <div class="clear">
+                <span class="fl">城市</span>
+                <span class="fl">杭州</span>
+                <i class="fr icon iconfont icon-fanhui"></i>
+            </div>
+            <div class="clear">
+                <span class="fl">县级</span>
+                <span class="fl">余杭区</span>
+                <i class="fr icon iconfont icon-fanhui"></i>
+            </div>
+            <div class="clear">
+                <span class="">登录密码</span>
+                <input class="" type="text" placeholder="请输入登录密码">
+            </div>
+        </div>
+        <!-- <div class="alttit">
+            <div>
+                <i class="icon iconfont icon-tishi"></i>
+                <span>温馨提示</span>
+            </div>
+            <div>
+                <span>成功提交后，该手机号将收到激活短信，</span>
+                <span class="textRed">点击短信即可激活！</span>
+            </div>
+        </div> -->
+        <div class="updata-btn">确认提交</div>
+    </div>
+    <div class="floor-bar">
+        <a href="">
+            <i class="icon iconfont icon-shouyefangwu hover"></i>
+        </a>
+        <a href="">
+            <i class="icon iconfont icon-tuandui"></i>
+        </a>
+        <a href="">
+            <i class="icon iconfont icon-fuwushangtubiao"></i>
+        </a>
+        <a href="">
+            <i class="icon iconfont icon-gerenzhongxin2"></i>
+        </a>
+    </div>
+    <!--  -->
+    <div class="floor-bar">
+
+    </div>
+</body>
+<script src="./public/jquery-3.3.1-min.js"></script>
+<script src="./public/iscroll.js"></script>
+<script src="./js/common.js"></script>
+<script>
+    $(function () {
+        $('.updata-btn').click(e=>{
+            window.history.go(-1);
+        })
+    })
+</script>
+
+</html>

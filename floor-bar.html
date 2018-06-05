@@ -1,0 +1,26 @@
+<a href="pay-index-index.html?page=1" class='hover'>
+    <i class="icon iconfont icon-shouyefangwu"></i>
+    <div>首页</div>
+</a>
+<a href="pay-team-my.html?page=2">
+    <i class="icon iconfont icon-tuandui"></i>
+    <div>我的团队</div>
+</a>
+<a href="pay-active-sever.html?page=3">
+    <i class="icon iconfont icon-fuwushangtubiao"></i>
+    <div>服务商</div>
+</a>
+<a href="pay-center.html?page=4">
+    <i class="icon iconfont icon-gerenzhongxin2"></i>
+    <div>个人中心</div>
+</a>
+<script>
+    $(function () {
+        let tempva = getQueryString('page') - 1;
+        console.log(tempva);
+        if (tempva != -1) {
+            $('.floor-bar >  a').removeClass('hover');
+        }
+        $('.floor-bar >  a:eq(' + tempva + ')').addClass('hover');
+    })
+</script>
